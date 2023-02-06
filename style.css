@@ -17,6 +17,10 @@ canvas {
     z-index: 1;
 }
 
+.backdrop-blur {
+    filter: blur(5px);
+}
+
 #end-menu {
     /* 게임이 끝났을 때 toggle 형식으로 나타나게 할 것입니다. */
     display: none;
